@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <?php if (!empty($mensajeError)): ?>
     <p class="error"><?= htmlspecialchars($mensajeError) ?></p>
 <?php endif; ?>
-f
+
 <!-- Cantidad total de películas -->
 <h2>Listado de películas (<?= count($peliculasObjetos) ?>)</h2>
 
